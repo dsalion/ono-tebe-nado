@@ -45,10 +45,6 @@
     text-decoration: none;
 }
 
-.header__logo {
-
-}
-
 .header__logo-image {
     object-fit: fill;
     width: 148px;
@@ -56,7 +52,7 @@
 }
 
 .address {
-    font-style: normal;        /* не наследуется потому что  */
+    font-style: normal;        /* не наследуется, я так понял тут предопределен курсив для самого тега */
     line-height: 24.3px;
     font-size: 18px;
 }
@@ -240,10 +236,6 @@
     grid-template-columns: 430px 1fr;   
 }
 
-.about__column {
-    
-}
-
 .about__logo {
     background-color: #000;
     border-radius: 50%;
@@ -268,7 +260,6 @@
     padding-left: 48px;
     margin-top: 100px;
     margin-bottom: 100px;
-   
 }
 
 .about__description {
@@ -276,13 +267,10 @@
     flex-direction: column;
     gap: 20px;
     line-height: 1.18;
-   
 }
 
 .about__text {
-    
     font-size: 20px;
-
     padding-left: 45px;
 }
 
@@ -306,7 +294,6 @@
 .footer__menu-list {
     text-align: center;
     font-size: 18px;
-
     list-style: none;
 }
 
@@ -321,10 +308,6 @@
     gap: 50px;
     align-self: flex-start;
     list-style: none;
-}
-
-.footer__social-list-item {
-    
 }
 
 .footer__social-icon {
